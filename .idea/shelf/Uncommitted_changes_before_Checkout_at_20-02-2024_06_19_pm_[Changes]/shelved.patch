@@ -1,0 +1,26 @@
+Index: src/main/java/org/example/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.example;\r\n\r\n//TIP To <b>Run</b> code, press <shortcut actionId=\"Run\"/> or\r\n// click the <icon src=\"AllIcons.Actions.Execute\"/> icon in the gutter.\r\npublic class Main {\r\n    public static void main(String[] args) {\r\n        Calculate c1 = new Calculate();\r\n        System.out.print(c1.add(20,10));\r\n    }\r\n}\r\n\r\nclass Calculate {\r\n    public int add(int a,int b){\r\n        return a+b;\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/example/Main.java b/src/main/java/org/example/Main.java
+--- a/src/main/java/org/example/Main.java	(revision 0291e3091e2ab7edfa19701dce87bb86182fe57a)
++++ b/src/main/java/org/example/Main.java	(date 1708433366687)
+@@ -5,12 +5,12 @@
+ public class Main {
+     public static void main(String[] args) {
+         Calculate c1 = new Calculate();
+-        System.out.print(c1.add(20,10));
++        System.out.print(c1.sub(20,10));
+     }
+ }
+ 
+ class Calculate {
+-    public int add(int a,int b){
++    public int sub(int a,int b){
+         return a+b;
+     }
+ }
+\ No newline at end of file
