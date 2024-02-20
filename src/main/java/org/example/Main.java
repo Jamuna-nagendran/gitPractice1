@@ -5,12 +5,12 @@ package org.example;
 public class Main {
     public static void main(String[] args) {
         Calculate c1 = new Calculate();
-        System.out.print(c1.add(10,20));
+        System.out.print(c1.sub(20,10));
     }
 }
 
 class Calculate {
-    public int add(int a,int b){
-        return a+b;
+    public int sub(int a,int b){
+        return a-b;
     }
 }
