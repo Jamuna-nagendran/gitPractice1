@@ -5,7 +5,9 @@ package org.example;
 public class Main {
     public static void main(String[] args) {
         Calculate c1 = new Calculate();
-        System.out.print(c1.sub(20,15));
+
+        System.out.print(c1.sub(20,10));
+
     }
 }
 
